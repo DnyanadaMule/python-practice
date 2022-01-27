@@ -1,1 +1,1 @@
-print("This is Pythin program to print message on screen")
+print("print message on screen")
