@@ -1,0 +1,8 @@
+#this function returns the sum of all the squares of numbers between 0 and x (no#t included). Remember that you can use the range(x) function to generate a sequence of numbers from 0 to x (not included).
+def square(n):
+    return n*n
+def sum_squares(x):
+    sum = 0
+    for n in range(x):
+        sum += n*n
+    return sum
